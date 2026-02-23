@@ -13,15 +13,19 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, "Times New Roman", serif;
-}
-
 #page-title {
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
+    vertical-align: top;
     font-family: "Trebuchet MS", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     color: black;
     margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 p {
@@ -43,22 +47,13 @@ header {
     margin-bottom: 2rem;
 }
 
-#page-title,
 #date {
     display: inline-block;
+    width: 30%;
     box-sizing: border-box;
     vertical-align: top;
-}
-
-#page-title {
-    width: 70%;
-    font-size: 50px;
-}
-
-#date {
-    width: 30%;
     text-align: right;
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 /* 2.3 */
@@ -71,8 +66,8 @@ header {
 #main-nav li {
     display: inline-block;
     width: 25%;
-    text-align: center;
     box-sizing: border-box;
+    text-align: center;
 }
 
 #main-nav a {
